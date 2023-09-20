@@ -1,8 +1,6 @@
 
-print("Now you are chosen to play the role of the queen in the new snow white.")
+print("Now you are chosen to play the role of the queen in the new snow white. Which question you want to ask the magic mirror? ")
 
-question = input("which question you want to ask the magic mirror? ")
-
-if (question  == "1") or (person == " "):
+if (question  == " ") or (person == " "):
   print
   
