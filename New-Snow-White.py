@@ -18,4 +18,20 @@ B = ("Who is the richest man in the world?")
 C = ("Who is the cleverest guy in the world?")
 
 question = input("I choose: ")
+
+if (question  == "A") or (question == "a"):
+  print("The mirror says that Snow White is the most beautiful woman in the world.")
+  print("You are now angry about the answer")
+  print("It is time to make a new decision")
+  print("A: Kill Snow White!")
+  print("B: Destory the stupid mirror!")
+  pickup = input("Which one do you prefer?")
+
+  if (pickup  == "A") or (pickup == "a"):
+    print("You ask the hunter to kill Snow White, but finally you fail and die.")
+  elif (pickup  == "B") or (pickup == "b"):
+    print("The mirror is broken and now you believe you are the most beautiful woman in the world!")
+  else:
+    print("That's not an answer!")
+
   
