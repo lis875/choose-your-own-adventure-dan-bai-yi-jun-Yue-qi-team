@@ -33,6 +33,29 @@ if (question  == "A") or (question == "a"):
     print("The mirror is broken and now you believe you are the most beautiful woman in the world!")
   else:
     print("That's not an answer!")
+
+elif (question == "B") or (question == "b"):
+  print("The magic mirror answered: 'It is the king, your husband.'")
+  print("How do you feel now that you are the queen?\n\
+    A.angry\n\
+    B.happy")
+  mood = input("I choose:")
+  if (mood == "A") or (mood == "a"):
+    print("You feel extremely angry that you are not the richest person in the world.\n\
+          So you say to the magic mirror, 'How do I make his wealth mine?' \n\
+          The magic mirror replied: \n\
+          'You can kill the king and his daughter, Snow White, and you will have his kingdom and all his property.'\n\
+          You think this is a little difficult, but maybe start with the weak one...")
+    print("")
+    print("You ask the hunter to kill Snow White, but finally you fail and die.")
+  elif (mood == "B") or (mood == "b"):
+    print("You said happily, 'Only the richest person in the world can match the most beautiful me!'\n\
+          The magic mirror replied: 'No, you are wrong! The most beautiful person in the world is Snow White, not you.'")
+    print("You feel extremely angry that you are not the most beautiful woman in the world.")
+    print("You ask the hunter to kill Snow White, but finally you fail and die.")
+  else:
+    print("That's not an answer!")
+
 elif (question  == "C")or(question == "c"):
   print(" ")
   for num in range(3):
