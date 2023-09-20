@@ -33,5 +33,17 @@ if (question  == "A") or (question == "a"):
     print("The mirror is broken and now you believe you are the most beautiful woman in the world!")
   else:
     print("That's not an answer!")
+elif (question  == "C")or(question == "c"):
+  print(" ")
+  for num in range(3):
+    print("The magic mirror says: I am the cleverest guy in the world!\n\
+\n\
+The queen says: What did you say? Dare you say that again?")
+  print(" ")
+  print("The queen says angrily: How dare you be cleverer than me! And then the queen broke the magic mirror.")
+
+else:
+  print("That's not an option!")
+
 
   
